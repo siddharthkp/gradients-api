@@ -1,0 +1,12 @@
+{
+  "name": "gradients-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "author": "siddharthkp",
+  "dependencies": {
+    "micro": "8.0.4"
+  }
+}
