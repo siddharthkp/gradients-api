@@ -6,6 +6,6 @@ module.exports = (req, res) => {
   const { name } = parse(req.url, true).query
   return (
     gradients.filter(g => g.name.replace(/ /g, '') == name)[0] ||
-    `I don't that one!`
+    `I don't know that one!`
   )
 }
